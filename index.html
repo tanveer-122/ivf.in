@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IVF — Education for All</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="topbar">
+    <div class="container">
+      <div class="brand">
+        <div class="logo">IVF</div>
+        <div class="brand-text">
+          <strong>IVF</strong><br>
+          <small>Education & Trust</small>
+        </div>
+      </div>
+
+      <nav>
+        <ul class="nav-list">
+          <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
+          <li><a href="#">Objective</a></li>
+          <li><a href="#">Vision & Mission</a></li>
+          <li><a href="#">Who We Are</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Documents</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-right">
+        <button class="btn-donate">Donate</button>
+        <a href="#">Login</a>
+        <a href="#">Sign Up</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="slides" id="slides">
+      <div class="slide active">
+        <img src="hero1.jpg" alt="Education event 1">
+      </div>
+      <div class="slide">
+        <img src="hero2.jpg" alt="Education event 2">
+      </div>
+      <div class="slide">
+        <img src="hero3.jpg" alt="Education event 3">
+      </div>
+
+      <div class="hero-content">
+        <div class="hero-inner">
+          <h1>Education for All</h1>
+          <p>Support our mission to provide quality education to underprivileged children.</p>
+          <a href="#" class="cta">Learn More</a>
+        </div>
+      </div>
+
+      <button class="arrow arrow-left" id="prev"><i class="fa fa-chevron-left"></i></button>
+      <button class="arrow arrow-right" id="next"><i class="fa fa-chevron-right"></i></button>
+
+      <div class="dots" id="dots"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT / CONTENT -->
+  <section class="about">
+    <div class="box">
+      <h3>Our Mission</h3>
+      <p>Delivering education, empowering communities, and building brighter futures with transparency and trust.</p>
+    </div>
+    <div class="box">
+      <h3>Programs</h3>
+      <p>Scholarships, skill training, and community outreach for sustainable impact.</p>
+    </div>
+    <div class="box">
+      <h3>Get Involved</h3>
+      <p>Volunteer, donate, or partner with us to scale our work across regions.</p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    © <span id="year"></span> IVF — Education & Trust. All rights reserved.
+  </footer>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+</body>
+</html>
